@@ -16,7 +16,7 @@
 #
 
 ifeq ($(TARGET_BOARD_PLATFORM),exynos5)
-ifeq ($(TARGET_SLSI_VARIANT),bsp)
+ifeq ($(TARGET_SLSI_VARIANT),bsp_gtaxl)
 
 ifeq ($(BOARD_USES_TRUST_KEYMASTER), true)
 exynos5_dirs += \
